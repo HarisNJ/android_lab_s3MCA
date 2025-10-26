@@ -36,7 +36,7 @@ import android.widget.EditText;
             result = findViewById(R.id.edit1);
 
             button1.setOnClickListener(new View.OnClickListener() {
-                public void nClick(View v) {
+                public void onClick(View v) {
                     result.setText(result.getText() + "1");
                 }
             });
